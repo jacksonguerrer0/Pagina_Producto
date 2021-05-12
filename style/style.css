@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+#contenedor {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ccc;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header {
+    background-color: #0B2239;
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+}
+header #header-logo {
+    max-width: 20px;
+}
